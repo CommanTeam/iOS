@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SplashVC-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController restorationIdentifier="SplashVC" storyboardIdentifier="SplashVC" modalTransitionStyle="crossDissolve" id="01J-lp-oVM" customClass="SplashVC" customModule="컴만" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q1B-Se-xF5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27996504306793213" green="0.46465843915939331" blue="0.85078930854797363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="q1B-Se-xF5" firstAttribute="bottom" secondItem="dCo-gV-H0n" secondAttribute="bottom" id="El3-7r-awp"/>
+                            <constraint firstItem="q1B-Se-xF5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="OKc-iL-7hg"/>
+                            <constraint firstItem="q1B-Se-xF5" firstAttribute="trailing" secondItem="dCo-gV-H0n" secondAttribute="trailing" id="c92-Dd-1vH"/>
+                            <constraint firstItem="q1B-Se-xF5" firstAttribute="leading" secondItem="dCo-gV-H0n" secondAttribute="leading" id="uxx-kQ-d0e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dCo-gV-H0n"/>
+                    </view>
+                    <connections>
+                        <outlet property="flash" destination="q1B-Se-xF5" id="h1a-bU-Lt5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+        <!--LoginVC-->
+        <scene sceneID="6cz-3X-gxg">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" modalTransitionStyle="crossDissolve" id="EmM-4f-fXl" customClass="LoginVC" customModule="컴만" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A0x-17-ACW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIG-UV-BYb">
+                                <rect key="frame" x="57" y="556" width="262" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="dDE-TT-EHI"/>
+                                    <constraint firstAttribute="width" constant="262" id="oyK-f0-q2t"/>
+                                </constraints>
+                                <state key="normal" image="login_btn"/>
+                                <connections>
+                                    <action selector="KakaoLoginBtn:" destination="EmM-4f-fXl" eventType="touchUpInside" id="Ovv-zk-1hd"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="KEq-SG-Pg6">
+                                <rect key="frame" x="119" y="199" width="154" height="166"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27996504306793213" green="0.46465843915939331" blue="0.85078930854797363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KEq-SG-Pg6" firstAttribute="leading" secondItem="Npi-MM-kWD" secondAttribute="leading" constant="119" id="0Ur-v3-g2o"/>
+                            <constraint firstItem="KIG-UV-BYb" firstAttribute="top" secondItem="KEq-SG-Pg6" secondAttribute="bottom" constant="191" id="NcI-0y-Qtx"/>
+                            <constraint firstItem="Npi-MM-kWD" firstAttribute="trailing" secondItem="KIG-UV-BYb" secondAttribute="trailing" constant="56" id="T5f-d4-07W"/>
+                            <constraint firstItem="Npi-MM-kWD" firstAttribute="trailing" secondItem="KEq-SG-Pg6" secondAttribute="trailing" constant="102" id="TM3-YO-0PM"/>
+                            <constraint firstItem="KEq-SG-Pg6" firstAttribute="top" secondItem="Npi-MM-kWD" secondAttribute="top" constant="179" id="eNY-28-sra"/>
+                            <constraint firstItem="Npi-MM-kWD" firstAttribute="bottom" secondItem="KIG-UV-BYb" secondAttribute="bottom" constant="55" id="h7d-Mf-gIo"/>
+                            <constraint firstItem="KIG-UV-BYb" firstAttribute="leading" secondItem="Npi-MM-kWD" secondAttribute="leading" constant="57" id="l6B-Ve-sw5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Npi-MM-kWD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="34g-W8-z9n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741.60000000000002" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login_btn" width="262" height="56"/>
+        <image name="splash_logo" width="150" height="166"/>
+    </resources>
+</document>
