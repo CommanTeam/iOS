@@ -9,7 +9,8 @@ Preview
 -------
 * 컴만은 중장년층 IT 소외자들을 위한 IT 교육 서비스 플랫폼입니다.<br>
 * SOPT로 불리는 대학 연합 IT 창업동아리 내에서 이루어진 2주간의 해커톤 활동에서 개발하였습니다.<br>
-* 애플리케이션 기획은 <a href="https://github.com/JunhoeKim">김준회</a>의 기획입니다.
+* 애플리케이션 기획자는 <a href="https://github.com/JunhoeKim">김준회</a>입니다.
+* 애플리케이션 디자이너는 최형윤(yunii96@naver.com)으로 Adobe XD를 사용하여 디자인하였습니다.
 * 앱은 MVC패턴으로 작성되었으며, 개발기간이 짧았던 관계로 일부 MVC의 디자인적 요소는 배제하였습니다.<br>
 
 
