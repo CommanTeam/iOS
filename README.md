@@ -38,11 +38,11 @@ Detail
   
   <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/list.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/preview.png" height=200/>
   
-  * Model :
+  * Model : List는 저희 앱에서 총 3가지로 구분됩니다.  Course, Chapter, Lecture 순으로 List는 Course 내의 Chapter 목록, Chapter 내의 Lecture 목록의 데이터로 구분되어 Modeling되어 있으며, 만약 미등록된 lecture라면 lecture의 데이터에 미리보기 영상에 대한 데이터가 추가적으로 들어가 Preview 데이터로 사용됩니다.
   
-  * View :
+  * View : Chapter, Lecture 목록을 Tableview로 출력시켜주며 등록여부가 cell 단위로 구분되어 출력됩니다. 만약 미등록된 lecture라면 미리보기 영상과 등록하기 버튼이 추가적으로 출력됩니다.
   
-  * Controller
+  * Controller : lecture의 경우 미등록된 정보에 따라서 출력 시켜주는 cell의 이미지를 다르게 구분해줍니다. 또한 등록되지 않은 lecture의 경우 동영상 데이터를 외부 웹페이지에서 받아온 뒤 화면에 넘겨주는 역할을 합니다.
 
 사용 라이브러리 및 api
 -----------------
