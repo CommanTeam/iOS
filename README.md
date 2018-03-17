@@ -18,27 +18,21 @@ Detail
 
   <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Splash.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/login.png" height=200/> 
   
-  * Model : Splash의 특별한 모델이 존재하지 않으나 Login의 경우엔 Kakao에서 accessToken을 받아 저희 앱의 서버에 전달하여  token, nickname, 
-            thumbnail을 받아옵니다.
+  * Model : Splash의 특별한 모델이 존재하지 않으나 Login의 경우엔 Kakao에서 accessToken을 받아 저희 앱의 서버에 전달하여  token, nickname, thumbnail을 받아옵니다.
   
   * View : SplashViewContrller의 view 에서는 userdefault 공간에 token이 있는 경우 main화면으로 없는 경우 login화면으로 전환됩니다.
   
-  * Controller : Splash Controller에서는 userdefault 공간에 token이 있는지 여부를 판단하고 그 여부에 따라 main과 login으로 구분하여 화면을 전환시킵        
-                 니다. Login Controller의 경우 kakao와 자체 서버와의 통신을 통해 받은 정보들을 가지고 main으로 넘어갈지 판단하여 정상 통신이 되었다면 데
-                 이터와 함께 화면을 전환 시킵니다.
+  * Controller : Splash Controller에서는 userdefault 공간에 token이 있는지 여부를 판단하고 그 여부에 따라 main과 login으로 구분하여 화면을 전환시킵        니다. Login Controller의 경우 kakao와 자체 서버와의 통신을 통해 받은 정보들을 가지고 main으로 넘어갈지 판단하여 정상 통신이 되었다면 데이터와 함께 화면을 전환 시킵니다.
   
 * Home & Search
 
-  <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/main.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/search.png" height=200/>
+  <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/main.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/search.png" height=200/> 
 
-  * Model : Home의 경우엔 사용자가 최근에 수강한 강의와 총 수강한 강의들의 목록에 대한 데이터를 가지고 있으며 Search의 경우 저희 앱에서 제공하는 카테고리들의 데
-            이터를 가지고 있습니다.
+  * Model : Home의 경우엔 사용자가 최근에 수강한 강의와 총 수강한 강의들의 목록에 대한 데이터를 가지고 있으며 Search의 경우 저희 앱에서 제공하는 카테고리들의 데이터를 가지고 있습니다.
   
-  * View : Home의 경우엔 TableView를 통해 사용자가 수강한 내용을 출력해주며, Search의 경우 CollectionView를 활용하여 카테고리 별 정보를 출력합니다. 또한 
-           두 개의 화면은 TabBar를 활용하여 화면 전환됩니다.
+  * View : Home의 경우엔 TableView를 통해 사용자가 수강한 내용을 출력해주며, Search의 경우 CollectionView를 활용하여 카테고리 별 정보를 출력합니다. 또한  두 개의 화면은 TabBar를 활용하여 화면 전환됩니다.
   
-  * Controller : Home의 Controller는 사용자가 수강한 강의들을 정보를 서버로 부터 받아 수강한 강의에 따라 구분하여 출력합니다. 하단의 선택된 탭바에 따라 
-                 Home과 Search로 변환해주며 Search에서는 카테고리 정보 서버로 부터 받아 분할하여 출력해줍니다.
+  * Controller : Home의 Controller는 사용자가 수강한 강의들을 정보를 서버로 부터 받아 수강한 강의에 따라 구분하여 출력합니다. 하단의 선택된 탭바에 따라  Home과 Search로 변환해주며 Search에서는 카테고리 정보 서버로 부터 받아 분할하여 출력해줍니다.
 
 
 사용 라이브러리 및 api
