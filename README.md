@@ -1,6 +1,6 @@
 <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Comman_ICON.png" height=32/>  컴만
 ====================================
-<img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Comman_ICON.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Splash.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/login.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/list.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/preview.png" height=200/>
+<img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Comman_ICON.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Splash.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/login.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/main.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/search.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/list.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/preview.png" height=200/>
 
 개발자 : 김지우
 
@@ -32,9 +32,9 @@ Detail
   
   * <a href="https://github.com/onevcat/Kingfisher">Kingfisher</a>
   
-  * <a href="https://github.com/rinov/YoutubeKit">YoutubeKit</a>
+  * <a href="https://github.com/rinov/YoutubeKit">YoutubeKit</a>
   
-  * <a href="https://github.com/JV17/YoutubePlayer">YoutubePlayer</a>
+  * <a href="https://github.com/JV17/YoutubePlayer">YoutubePlayer</a>
   
 
 라이선스
