@@ -1,6 +1,6 @@
 <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Comman_ICON.png" height=32/> 컴만
 ====================================
-<img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Comman_ICON.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Splash.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/login.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/main.png" height=200/> ㅍㅇ
+<img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Comman_ICON.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/Splash.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/login.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/main.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/list.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/preview.png" height=200/>
 
 개발자 : 김지우
 
@@ -33,7 +33,15 @@ Detail
   * View : SplashViewContrller의 view 에서는 userdefault 공간에 token이 있는 경우 main화면으로 없는 경우 login화면으로 전환됩니다.
   
   * Controller : Home의 Controller는 사용자가 수강한 강의들을 정보를 서버로 부터 받아 수강한 강의에 따라 구분하여 출력합니다. 하단의 선택된 탭바에 따라  Home과 Search로 변환해주며 Search에서는 카테고리 정보 서버로 부터 받아 분할하여 출력해줍니다.
-
+  
+* List & Preview
+  <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/list.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/preview.png" height=200/>
+  
+  * Model :
+  
+  * View :
+  
+  * Controller
 
 사용 라이브러리 및 api
 -----------------
