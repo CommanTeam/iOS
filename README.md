@@ -28,13 +28,14 @@ Detail
 
   <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/main.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/search.png" height=200/> 
   
-  * Model : Splash의 특별한 모델이 존재하지 않으나 Login의 경우엔 Kakao에서 accessToken을 받아 저희 앱의 서버에 전달하여  token, nickname, thumbnail을 받아옵니다.
+  * Model : Home의 경우엔 사용자가 최근에 수강한 강의와 총 수강한 강의들의 목록에 대한 데이터를 가지고 있으며 Search의 경우 저희 앱에서 제공하는 카테고리들의 데이터를 가지고 있습니다.
   
-  * View : SplashViewContrller의 view 에서는 userdefault 공간에 token이 있는 경우 main화면으로 없는 경우 login화면으로 전환됩니다.
+  * View : Home의 경우엔 TableView를 통해 사용자가 수강한 내용을 출력해주며, Search의 경우 CollectionView를 활용하여 카테고리 별 정보를 출력합니다.
   
   * Controller : Home의 Controller는 사용자가 수강한 강의들을 정보를 서버로 부터 받아 수강한 강의에 따라 구분하여 출력합니다. 하단의 선택된 탭바에 따라  Home과 Search로 변환해주며 Search에서는 카테고리 정보 서버로 부터 받아 분할하여 출력해줍니다.
   
 * List & Preview
+  
   <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/list.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/preview.png" height=200/>
   
   * Model :
