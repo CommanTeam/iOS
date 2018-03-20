@@ -40,7 +40,7 @@ Detail
   
   <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/list.png" height=200/> <img src = "https://github.com/CommanTeam/iOS/blob/master/wireframe/preview.png" height=200/>
   
-  * Model : List는 저희 앱에서 총 3가지로 구분됩니다.  Course, Chapter, Lecture 순으로 List는 Course 내의 Chapter 목록, Chapter 내의 Lecture 목록의 데이터로 구분되어 Modeling되어 있으며, 만약 미등록된 Chapter라면 Chapter의 데이터에 미리보기 영상에 대한 데이터가 추가적으로 들어가 Preview 데이터로 사용됩니다.
+  * Model : List는 저희 앱에서 총 3가지로 구분됩니다.  Course, Chapter, Lecture 순으로 List는 Course 내의 Chapter 목록, Chapter 내의 Lecture 목록의 데이터로 구분되어 Modeling되어 있으며, 만약 미등록된 Chapter라면 Chapter의 데이터에 미리보기 영상에 대한 데이터가 추가적으로 들어가 Preview 데이터로 사용됩니다.
   
   * View : Chapter, Lecture 목록을 Tableview로 출력시켜주며 등록여부가 cell 단위로 구분되어 출력됩니다. 만약 미등록된 Chapter라면 미리보기 영상과 등록하기 버튼이 추가적으로 출력됩니다.
   
